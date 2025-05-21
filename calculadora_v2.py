@@ -5,7 +5,7 @@ saida = ''
 def adicao(a, b):
     return a + b
 
-def subracao(a, b):
+def subtracao(a, b):
     return a - b
 
 def multiplicacao(a, b):
@@ -21,7 +21,7 @@ def calculadora(num1, num2, operacao):
     if op == '+' or op in ('adicao', 'adição'):
         return adicao(num1, num2)
     elif op == '-' or op in ('subtracao', 'subtração'):
-        return subracao(num1, num2)
+        return subtracao(num1, num2)
     elif op == '*' or op in ('multiplicacao', 'multiplicação'):
         return multiplicacao(num1, num2)
     elif op == '/' or op in ('divisao', 'divisão'):
